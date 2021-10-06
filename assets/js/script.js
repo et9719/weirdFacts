@@ -86,6 +86,27 @@ function usersAnswer() {
             showNextBtn();
 }
 
+// check if answer is correct.
+function checkAnswer(selectedAnswer) {
+    const usersAns = selectedAnswer.innerText;
+    incrementScore(usersAns);
+}
+
+// Increment the incorrect and correct answers. 
+function incrementScore(usersAns) {
+    // console.log('userAns', usersAns);
+    // console.log('questions.answer',questions[index].answer);
+    if (usersAns === questions[index].answer) {
+        //  if answer is correct and 1 point to correct answers
+        let oldScore = parseInt(document.getElementById("score").innerText);
+        document.getElementById("score").innerText = oldScore + 1;
+    } else {
+        // if answer is incorrect and 1 point to incorrect answers
+        let oldScore = parseInt(document.getElementById("incorrect").innerText);
+        document.getElementById("incorrect").innerText = oldScore + 1;
+    }
+} 
+
 // when end button is clicked show congats if user get 5 or more correct and tryAgain if less than 5.
 endBtn.addEventListener('click', results);
 function results() {
