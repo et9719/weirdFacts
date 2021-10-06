@@ -46,7 +46,7 @@ function exitFeedback() {
     feedbackSection.classList.add('hide');
 }
 
-// When continue button is clicked, show the first question.
+// When start button is clicked, show the first question.
 startBtn.addEventListener('click', showQuestion);
 
 function showQuestion() {
@@ -54,6 +54,37 @@ function showQuestion() {
     quizSection.classList.remove('hide');
     loadData();
 } 
+
+// When user clicks on an answer, show next button
+function showNextBtn() {
+    if (index !== questions.length - 1 ) {
+        nextBtn.classList.remove('hide');
+    } else {
+        endBtn.classList.remove('hide');
+    }
+}
+
+// Take data from javaScript and push to html. 
+let loadData = ()=>{
+    questionText.innerText = questions[index].question;
+    choice1.innerText = questions[index].option1;
+    choice2.innerText = questions[index].option2;
+    choice3.innerText = questions[index].option3;
+    choice4.innerText = questions[index].option4;
+}
+
+// Add selected class to answer user chooses.
+choice1.addEventListener('click', usersAnswer);
+choice2.addEventListener('click', usersAnswer);
+choice3.addEventListener('click', usersAnswer);
+choice4.addEventListener('click', usersAnswer);
+function usersAnswer() {
+    
+            this.classList.add('selected');
+            console.log(this);
+            checkAnswer(this);
+            showNextBtn();
+}
 
 
 
