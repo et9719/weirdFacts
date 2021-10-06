@@ -10,3 +10,9 @@ function showInstructions() {
     startSection.classList.add('hide');
     instructionsSection.classList.remove('hide');
 }
+// Exit the instructions when exit button is clicked.
+exitBtn.addEventListener('click', exitInstructions);
+function exitInstructions() {
+    startSection.classList.remove('hide');
+    instructionsSection.classList.add('hide');
+}
