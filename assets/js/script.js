@@ -19,6 +19,8 @@ let choice2 = document.getElementById('option2');
 let choice3 = document.getElementById('option3');
 let choice4 = document.getElementById('option4');
 
+let restartBtn = document.getElementsByClassName('restart');
+
 let index = 0;
 
 // Show the instructions when instructions button is clicked.
@@ -48,7 +50,6 @@ function exitFeedback() {
 
 // When start button is clicked, show the first question.
 startBtn.addEventListener('click', showQuestion);
-
 function showQuestion() {
     startSection.classList.add('hide');
     quizSection.classList.remove('hide');
@@ -129,6 +130,15 @@ function results() {
         tryAgain.classList.remove('hide');
     }
 }
+
+// restartBtn.addEventListener('click', restart);
+// function restart() {
+//     tryAgain.classList.add('hide');
+//     congrats.classList.add('hide');
+//     startSection.classList.remove('hide');
+//     document.getElementById("score").innerText = 0;
+//     document.getElementById("incorrect").innerText = 0;
+// }
 
 let questions = [ 
     {
