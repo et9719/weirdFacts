@@ -167,3 +167,8 @@ textarea {
     width: 30%;
     font-family: 'Special Elite',cursive;
 }
+
+/* loosers Section */
+#tryAgain h2, #tryAgain h4{
+    font-weight: lighter;
+}
