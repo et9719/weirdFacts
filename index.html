@@ -4,15 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- font awesome and google fonts -->
+    <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Weird Facts Quiz</title>
+    <style>
+        body {
+          background-image: url('assets/images/temp-background.png');
+         
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+    </style>
 </head>
 <body>
-    
+    <img class="logo" src="assets/images/weird-logo.png" alt="Weird Facts Quiz Logo">
+
+    <div id="container">
+        <!-- Start Section -->
+        <div id="instructions" class="btn"> Instructions </div>
+        <div id="start" class="btn"> Start </div>
+        <div id="feedback" class="btn"> Give Feedback </div>
+    </div>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
