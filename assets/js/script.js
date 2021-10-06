@@ -86,6 +86,18 @@ function usersAnswer() {
             showNextBtn();
 }
 
+// when end button is clicked show congats if user get 5 or more correct and tryAgain if less than 5.
+endBtn.addEventListener('click', results);
+function results() {
+    if (document.getElementById("score").innerText >= 5) {
+        quizSection.classList.add('hide');
+        congrats.classList.remove('hide');
+    } else {
+        quizSection.classList.add('hide');
+        tryAgain.classList.remove('hide');
+    }
+}
+
 
 
 

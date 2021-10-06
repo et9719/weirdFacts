@@ -136,3 +136,22 @@ textarea {
     position: relative;
     top: 0;
 }
+
+/* score area */
+#score {
+    color: rgb(7, 204, 7);
+    font-weight: bold;
+}
+
+#incorrect {
+    color: red;
+    font-weight: bold;
+}
+    
+.scores {
+    display: inline-block;
+    padding: 25px;
+    margin: 0;
+    background-color: rgba(204, 197, 197, 0.5);
+    border-radius: 50% ;
+}
