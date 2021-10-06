@@ -25,7 +25,7 @@
 
     <div id="container">
         <!-- Start Section -->
-        <div id="startSection">
+        <div id="startSection" class="hide">
             <div id="instructionsBtn" class="btn"> Instructions </div>
             <div id="start" class="btn"> Start </div>
             <div id="feedback" class="btn"> Give Feedback </div>
@@ -38,6 +38,18 @@
                  is selected you can't change your mind. </h4>
             <h4> 3. Points will be given based on your correct/incorrect answers. </h4>
             <button id="exit" class="btn">Exit</button>
+        </div>
+        <!-- Feedback Section -->    
+        <div id="form" >
+            <form method="POST" action="https://formdump.codeinstitute.net/">
+                <p id="message">If you have any feed back or think you have a weird fact to teach us, please 
+                leave it for us to read in the box below: </p>
+                <br>
+                <textarea rows = "8" cols = "50" name = "message">
+                                      leave message here!
+                </textarea><br>
+                <input class="btn" id="submit" type = "submit" value = "submit" />
+            </form>
         </div>
    
     </div>

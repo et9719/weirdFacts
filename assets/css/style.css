@@ -75,3 +75,28 @@ body {
     padding: 20px 40px;
     margin: 0 0 10px 0;
 }
+
+/* Feedback Section */
+form { 
+    padding: 20px; 
+} 
+
+#message {
+    font-size: larger;
+    margin: 0;
+}
+
+textarea {
+    border: 2px solid black;
+    margin-top: 10px;
+    font-family: 'Special Elite',cursive;
+    padding: 10px;
+}
+
+#submit {
+    font-family: 'Special Elite', cursive; 
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 20px 40px;
+    margin: 0 0 10px 0;
+}
