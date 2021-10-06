@@ -64,6 +64,17 @@ function showNextBtn() {
     }
 }
 
+// Show next question when next button is clicked.
+nextBtn.addEventListener('click', showNextQuestion);
+
+function showNextQuestion() {
+    if (index !== questions.length - 1 ) {
+        index++;
+        loadData();
+        nextBtn.classList.add('hide');
+    } 
+}
+
 // Take data from javaScript and push to html. 
 let loadData = ()=>{
     questionText.innerText = questions[index].question;
@@ -118,9 +129,6 @@ function results() {
         tryAgain.classList.remove('hide');
     }
 }
-
-
-
 
 let questions = [ 
     {
