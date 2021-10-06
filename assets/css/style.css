@@ -68,7 +68,7 @@ body {
     font-weight: lighter;
 }
 
-#exit {
+#exitInstructions {
     font-family: 'Special Elite', cursive; 
     align-items: center;
     font-size: 1.5rem;
@@ -77,7 +77,7 @@ body {
 }
 
 /* Feedback Section */
-form { 
+#form { 
     padding: 20px; 
 } 
 
@@ -98,5 +98,15 @@ textarea {
     align-items: center;
     font-size: 1.5rem;
     padding: 20px 40px;
+    margin: 0 0 10px 10px;
+    display: inline;
+}
+
+#exitFeedback {
+    font-family: 'Special Elite', cursive; 
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 20px 40px;
     margin: 0 0 10px 0;
+    display: inline;
 }
