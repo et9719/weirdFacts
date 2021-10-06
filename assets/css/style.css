@@ -172,3 +172,12 @@ textarea {
 #tryAgain h2, #tryAgain h4{
     font-weight: lighter;
 }
+
+ /* if answer selected is correct  */
+ .buttonCorrect {
+    background-color: green;
+}
+ /* if answer selected is incorrect  */
+.buttonWrong {
+    background-color: red;
+} 
