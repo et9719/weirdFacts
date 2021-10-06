@@ -11,7 +11,12 @@
 1. [Client Expectations](#client-expectations)
 2. [User Expectations](#user-expectations)
 3. [Wireframes](#wireframes)
-   
+    - [Start](#start)
+    - [Instructions](#instructions)
+    - [Feedback](#feedback)
+    - [Quiz](#quiz)
+    - [Results](#results)
+    - [Mobile wireframes](#mobile-wireframes)    
 4. [Features](#features)
 5. [Testing](#testing)
     - [HTML](#html)
@@ -34,22 +39,23 @@
 ## Wireframes
 
 ### Start
-<img src="" alt="wireframe for instructions page">
+<img src="assets/images/startSection.png" alt="wireframe for starting page">
 
-### instructions
-<img src="" alt="wireframe for instructions page">
+### Instructions
+<img src="assets/images/instructions.png" alt="wireframe for instructions page">
 
 ### Feedback 
-<img src="" alt="wireframe for the feedback page">
+<img src="assets/images/feedback.png" alt="wireframe for the feedback page">
 
-### quiz 
-<img src="" alt="wireframe for the quiz section">
+### Quiz 
+<img src="assets/images/quizSection.png" alt="wireframe for the quiz section">
 
-### Congrats
-<img src="" alt="wireframe for the page shown when you win">
+### Results
+<img src="assets/images/results.png" alt="wireframe for the page shown when at the end of the quiz">
 
-### loose
-<img src="" alt="wireframe for the page shown when you loose">
+### Mobile wireframes
+<img src="assets/images/mobile-wireframes1.png" alt="wireframe for start page instructions and feedback form if they are on a mobile device">
+<img src="assets/images/mobile-wireframes2.png" alt="wireframe for questions and results if they are on a mobile device">
 
 ## Features
 
