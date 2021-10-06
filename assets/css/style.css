@@ -110,3 +110,29 @@ textarea {
     margin: 0 0 10px 0;
     display: inline;
 }
+
+/* Quiz Section */
+#questionText {
+    font-weight:lighter;
+    margin-top: 10px;
+}
+
+#optionList {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.choice_que {
+    padding: 20px 80px;
+    margin: 5px 20px;
+}
+
+#next, #end {
+    font-size: 1.5rem;
+    top: 85px;
+    padding: 20px 40px;
+    width: 30%;
+    font-family: 'Special Elite',cursive;
+    position: relative;
+    top: 0;
+}
