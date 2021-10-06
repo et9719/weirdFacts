@@ -1,6 +1,7 @@
 let startSection = document.getElementById('startSection');
 let instructionsSection = document.getElementById('instructions');
 let feedbackSection = document.getElementById('form');
+let answersDisable = false;
 
 let instructionsBtn = document.getElementById('instructionsBtn');
 let exitBtn = document.getElementById('exitInstructions');
@@ -69,6 +70,7 @@ function showNextBtn() {
 nextBtn.addEventListener('click', showNextQuestion);
 
 function showNextQuestion() {
+    answersDisable = false;
     if (index !== questions.length - 1 ) {
         index++;
         loadData();
@@ -91,31 +93,35 @@ choice2.addEventListener('click', usersAnswer);
 choice3.addEventListener('click', usersAnswer);
 choice4.addEventListener('click', usersAnswer);
 function usersAnswer() {
-    
-            this.classList.add('selected');
-            console.log(this);
-            checkAnswer(this);
-            showNextBtn();
+    if (answersDisable == true) { return null; }
+    answersDisable = true;
+    this.classList.add('selected');
+    console.log(this);
+    checkAnswer(this);
+    showNextBtn();
 }
 
 // check if answer is correct.
 function checkAnswer(selectedAnswer) {
     const usersAns = selectedAnswer.innerText;
-    incrementScore(usersAns);
+    incrementScore(usersAns, selectedAnswer);
 }
 
 // Increment the incorrect and correct answers. 
-function incrementScore(usersAns) {
+function incrementScore(usersAns, selectedAnswer) {
     // console.log('userAns', usersAns);
     // console.log('questions.answer',questions[index].answer);
     if (usersAns === questions[index].answer) {
         //  if answer is correct and 1 point to correct answers
         let oldScore = parseInt(document.getElementById("score").innerText);
         document.getElementById("score").innerText = oldScore + 1;
+        selectedAnswer.style.backgroundColor = 'green';
+        console.log(selectedAnswer.id);
     } else {
         // if answer is incorrect and 1 point to incorrect answers
         let oldScore = parseInt(document.getElementById("incorrect").innerText);
         document.getElementById("incorrect").innerText = oldScore + 1;
+        selectedAnswer.style.backgroundColor = 'red';
     }
 } 
 
@@ -131,14 +137,9 @@ function results() {
     }
 }
 
-// restartBtn.addEventListener('click', restart);
-// function restart() {
-//     tryAgain.classList.add('hide');
-//     congrats.classList.add('hide');
-//     startSection.classList.remove('hide');
-//     document.getElementById("score").innerText = 0;
-//     document.getElementById("incorrect").innerText = 0;
-// }
+function restart() {
+    window.location.reload();
+}
 
 let questions = [ 
     {
