@@ -15,6 +15,8 @@ let quizSection = document.getElementById('quiz');
 
 let questionText = document.getElementById('questionText');
 
+let choices = document.getElementsByClassName('choice_que');
+
 let choice1 = document.getElementById('option1');
 let choice2 = document.getElementById('option2');
 let choice3 = document.getElementById('option3');
@@ -71,6 +73,7 @@ nextBtn.addEventListener('click', showNextQuestion);
 
 function showNextQuestion() {
     answersDisable = false;
+//    .style.backgroundColor = 'white';
     if (index !== questions.length - 1 ) {
         index++;
         loadData();
@@ -109,8 +112,6 @@ function checkAnswer(selectedAnswer) {
 
 // Increment the incorrect and correct answers. 
 function incrementScore(usersAns, selectedAnswer) {
-    // console.log('userAns', usersAns);
-    // console.log('questions.answer',questions[index].answer);
     if (usersAns === questions[index].answer) {
         //  if answer is correct and 1 point to correct answers
         let oldScore = parseInt(document.getElementById("score").innerText);

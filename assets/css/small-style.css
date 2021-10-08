@@ -1,0 +1,196 @@
+@media screen and (max-width: 420px) {
+    #container {
+        max-width: 80%;
+        padding: 30px 20px;
+        margin-bottom: 50px;
+    } 
+
+    .logo {
+        width: 80%;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    /* start section */
+    #start {
+        font-size: 1rem;
+        padding: 20px 30px;
+        margin: 5%;
+        text-align: center;
+    }
+
+    #feedback {
+        font-size: 1rem;
+        padding: 20px 30px;
+        margin: 10% 5% 5% 5%;
+        text-align: center;
+    }
+    
+    #instructionsBtn {
+        font-size: 1rem;
+        padding: 20px 0;
+        margin: 5% 5% 10% 5%;
+        text-align: center;
+    } 
+
+    /* score area */
+    .scores {
+        display: inline;
+        font-size: small;
+    } 
+    
+    /* Instructions Section */
+    #instructions h2 {
+        font-size: 20px;
+    }
+
+    #instructions h4 {
+        font-size: 15px;
+    }
+
+    #exitInstructions {
+        font-size: 15px;
+        padding:5%;
+    }
+
+    /* feedback section */
+    #message {
+        font-size: small;
+        margin: 0;
+    }
+
+    #exitFeedback, #submit {
+        font-size: 1rem;
+    }
+
+    #form { 
+        padding: 20px; 
+        padding-bottom: 0;
+    } 
+
+     /* Quiz Section */
+     #questionText {
+        font-size:medium
+    }
+
+    #optionList {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    }
+
+    .choice_que {
+    font-size: medium;
+    padding: 5px;
+    font-weight: lighter;
+    }
+
+    #next, #end {
+    font-size: 1rem;
+    margin: 0;
+    padding: 5px;
+    width: 60px;
+    }
+
+    /* Winners Section */
+    #congrats h2, #congrats h4{
+        font-size:medium;
+        margin-bottom: 0;
+    }
+
+    .restart {
+        font-size: 1rem;
+        padding: 10px;
+        width: 40%;
+    }
+
+    /* loosers Section */
+    #tryAgain h2, #tryAgain h4{
+        font-size:medium;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .logo {
+        margin-bottom: 0;
+    }
+
+    #container {
+        margin-bottom: 20px;
+    }
+    
+    /* start section */
+    #start, #feedback {
+        margin: 10%;
+    }
+    
+    #instructionsBtn {
+        margin: 10%;
+    } 
+
+    /* score area */
+    .scores {
+        padding: 15px;
+        margin: 0;
+    } 
+
+    /* Instructions Section */
+    #instructions h2 {
+        font-size: 20px;
+    }
+
+    #instructions h4 {
+        font-size: small;
+    }
+
+    #exitInstructions {
+        font-size: 1rem;
+    }
+
+    /* Feedback Section */
+    #form { 
+        padding: 0; 
+    } 
+
+    /* textarea {
+        display:
+    } */
+   
+}  
+
+@media screen and (max-width: 330px) {
+   
+    .logo {
+        margin:0;
+    }
+
+    /* score area */
+    .scores {
+        font-size: x-small;
+    }
+
+    /* Instructions Section */
+    #instructions h2 {
+        font-size: 15px;
+    }
+
+    #instructions h4 {
+        font-size: small;
+    }
+
+    #exitInstructions {
+        font-size: 1rem;
+        padding: 5px;
+    }
+
+    /* Feedback Section */
+    
+    /* textarea {
+        display:
+    } */
+
+    #submit, #exitFeedback {
+        padding: 5px;
+    }
+}
