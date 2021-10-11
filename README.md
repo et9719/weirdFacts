@@ -111,9 +111,9 @@ I have tested my site on the following devices:
 - Galaxy S5
 - Pixel 2
 - iphone 5/SE
-<!-- - iphone 6/7/8
+- iphone 6/7/8
 - iphone 6/7/8 Plus
-- iPhone X
+<!-- 
 - iPad
 - ipad pro
 - Desktop -->

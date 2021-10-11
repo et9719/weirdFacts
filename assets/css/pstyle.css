@@ -1,0 +1,188 @@
+
+    body {
+        font-family: 'Special Elite', cursive;
+        text-align: center;
+        height: 100vh;
+    }
+    
+    .hide {
+        display: none;
+    }
+    
+    .logo {
+        position: relative;
+        top: -2%;
+    }
+    
+    #container {
+        background-image: url("../images/paper.jpg");   
+        box-sizing: border-box;
+        border-radius: 1%;
+        display: flex;
+        flex-direction: row;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 630px;
+        padding: 20px;
+        margin: 20px;
+        margin-left: auto; 
+        margin-right: auto; 
+        box-shadow: 0 0 10px 2px;
+        position: relative; 
+        top: -5%; 
+    }
+    
+    .btn {
+        background-color: white;
+        position:relative;
+        margin: 30px auto;
+        border-width: 2px;
+        border-style:outset;
+        border-color: rgb(85, 85, 85);
+        border-radius: 1%;
+    }
+    
+    .btn:hover {
+        border-style:inset;
+        border-width: 3px;
+    }
+    
+    /* Start Section  */
+    
+    #start, #instructionsBtn, #feedback {
+        font-size: 1.5rem;
+        padding: 20px 40px;
+        margin: 2% 25%;
+        text-align: center;
+    }
+    
+    /* Instructions Section */
+    #instructions h2 {
+        font-size: 30px;
+        border-bottom: 2px solid black; 
+        padding-bottom: 15px; 
+        font-weight: lighter;
+    }
+    
+    #instructions h4 {
+        font-size: 20px; 
+        font-weight: lighter;
+    }
+    
+    #exitInstructions {
+        font-family: 'Special Elite', cursive; 
+        align-items: center;
+        font-size: 1.5rem;
+        padding: 20px 40px;
+        margin: 0 0 10px 0;
+    }
+    
+    /* Feedback Section */
+    #form { 
+        padding: 20px; 
+    } 
+    
+    #message {
+        font-size: larger;
+        margin: 0;
+    }
+    
+    textarea {
+        border: 2px solid black;
+        margin-top: 10px;
+        font-family: 'Special Elite',cursive;
+        padding: 10px;
+    }
+    
+    #submit {
+        font-family: 'Special Elite', cursive; 
+        align-items: center;
+        font-size: 1.5rem;
+        padding: 20px 40px;
+        margin: 0 0 10px 10px;
+        display: inline;
+    }
+    
+    #exitFeedback {
+        font-family: 'Special Elite', cursive; 
+        align-items: center;
+        font-size: 1.5rem;
+        padding: 20px 40px;
+        margin: 0 0 10px 0;
+        display: inline;
+    }
+    
+    /* Quiz Section */
+    #questionText {
+        font-weight:lighter;
+        margin-top: 10px;
+    }
+    
+    #optionList {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+    
+    .choice_que {
+        padding: 20px 80px;
+        margin: 5px 20px;
+    }
+    
+    #next, #end {
+        font-size: 1.5rem;
+        top: 85px;
+        padding: 20px 40px;
+        width: 30%;
+        font-family: 'Special Elite',cursive;
+        position: relative;
+        top: 0;
+    }
+    
+    /* score area */
+    #score {
+        color: rgb(7, 204, 7);
+        font-weight: bold;
+    }
+    
+    #incorrect {
+        color: red;
+        font-weight: bold;
+    }
+        
+    .scores {
+        display: inline-block;
+        padding: 50px;
+        font-size: x-large; 
+        margin:10px;
+        background-color: rgba(204, 197, 197, 0.5);
+        border-radius: 50% ;
+    }
+    
+    /* Winners Section */
+    #congrats h2, #congrats h4{
+        font-weight: lighter;
+    }
+    
+    .restart {
+        font-size: 1.5rem;
+        padding: 20px 40px;
+        width: 30%;
+        font-family: 'Special Elite',cursive;
+    }
+    
+    /* loosers Section */
+    #tryAgain h2, #tryAgain h4{
+        font-weight: lighter;
+    }
+    
+     /* if answer selected is correct  */
+     .buttonCorrect {
+        background-color: green;
+    }
+     /* if answer selected is incorrect  */
+    .buttonWrong {
+        background-color: red;
+    } 
+
+
+

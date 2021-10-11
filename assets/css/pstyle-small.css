@@ -1,14 +1,181 @@
+@media screen and (max-width: 1200px) {
+    .logo {
+        width: 60%;
+        margin: 40px;
+    }
+
+    #container {
+        max-width: 830px;
+        padding: 40px;
+    }
+   
+    /* start section */
+    #start, #feedback, #instructionsBtn {
+        font-size: 2.5rem;
+        margin: 70px 100px;
+    }
+
+    /* score area */
+    /* .score {
+        padding: 50px;
+    } */
+
+    /* Instructions Section */
+    #instructions h2 {
+        font-size: 50px;
+        padding-bottom: 30px; 
+    }
+    
+    #instructions h4 {
+        font-size: 30px; 
+    }
+    
+    #exitInstructions {
+        font-size: 3rem; 
+    }
+
+    /* Feedback Section */
+    #message {
+        font-size: 30px;
+    }
+    
+    textarea {
+        margin: 20px 0; 
+        font-size: 20px;
+    }
+    
+    #submit {
+        font-size: 3rem;
+    }
+    
+    #exitFeedback {
+        font-size: 3rem;
+    }
+
+    /* Quiz Section */
+    #questionText {
+        font-size: 50px;
+    }
+    
+    .choice_que {
+        font-size: 30px;
+        font-weight: lighter;
+    }
+    
+    #next, #end {
+        font-size: 3rem;
+    }
+
+    /* Winners Section */
+    #congrats h2, #tryAgain h2{
+        font-size: 40px;
+    }
+    
+    .restart {
+        font-size: 3rem;
+        width: 40%;
+    }
+    
+    /* loosers Section */
+    #congrats h4, #tryAgain h4{
+        font-size: 30px;
+    } 
+    
+}
+
+@media screen and (max-width: 800px) {
+    .logo {
+        width: 60%;
+        margin: 30px;
+    }
+
+    #container {
+        max-width:80%;
+        padding: 40px;
+    }
+
+    /* start section */
+    #start, #feedback, #instructionsBtn {
+        margin: 40px 70px;
+    }
+
+    /* score area */
+    .scores {
+        font-size: large;
+        margin: 10px;
+    }
+
+    /* Instructions Section */
+    #instructions h2 {
+        font-size: 30px;
+    }
+
+    #instructions h4 {
+        font-size: 25px;
+    }
+
+    #exitInstructions {
+        font-size: 25px;
+        padding:5%;
+    }
+
+    /* feedback section */
+    #message {
+        font-size:25px;
+        margin: 0;
+    }
+
+    textarea {
+        font-size: 15px;
+    }
+
+    #exitFeedback, #submit {
+        font-size: 1.5rem;
+    }
+
+    #form { 
+        padding:0; 
+    } 
+    
+    /* Quiz Section */
+    #questionText {
+        font-size: 30px;
+    }
+
+    .choice_que {
+    padding: 10px;
+    margin: 10px;
+    } 
+
+    #next, #end {
+     font-size: 30px;
+    }
+
+      /* Winners Section */
+      #congrats h2, #tryAgain h2{
+        font-size:30px;
+    }
+
+    .restart {
+        font-size: 1.5rem;
+    }
+
+    /* loosers Section */
+    #congrats h4, #tryAgain h4{
+        font-size:20px;
+    }
+}
+
 @media screen and (max-width: 420px) {
     #container {
         max-width: 80%;
         padding: 30px 20px;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     } 
 
     .logo {
         width: 80%;
-        margin-top: 40px;
-        margin-bottom: 30px;
+        margin-top: 10px;
     }
 
     /* start section */
@@ -16,6 +183,8 @@
         font-size: 1rem;
         padding: 20px 30px;
         margin: 5%;
+        margin-top: 40px;
+        margin-bottom: 40px;
         text-align: center;
     }
 
@@ -37,6 +206,7 @@
     .scores {
         display: inline;
         font-size: small;
+        margin: 0;
     } 
     
     /* Instructions Section */
@@ -68,7 +238,7 @@
         padding-bottom: 0;
     } 
 
-     /* Quiz Section */
+    /* Quiz Section */
      #questionText {
         font-size:medium
     }
