@@ -113,10 +113,9 @@ I have tested my site on the following devices:
 - iphone 5/SE
 - iphone 6/7/8
 - iphone 6/7/8 Plus
-<!-- 
 - iPad
 - ipad pro
-- Desktop -->
+<!-- - Desktop  -->
 
 
 ### Bugs

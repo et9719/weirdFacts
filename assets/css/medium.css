@@ -1,0 +1,284 @@
+
+@media screen and (min-width: 750px) {
+    #container {
+        max-width: 550px;
+    }
+
+    /* scores section */
+    .scores {
+        font-size: 20px;
+        padding: 30px;
+        margin: 30px;
+    }
+
+    /* Start Section  */
+    #start, #instructionsBtn, #feedback {
+        font-size: 2rem;
+        margin: 60px; 
+    }
+
+    /* Instructions Section */
+    #instructions h2 {
+        font-size: 2rem;
+    }
+
+    #instructions h4 {
+        font-size: 1.5rem; 
+    }
+
+    #exitInstructions {
+        font-size: 2rem;
+    }
+
+    /* Feedback Section */
+
+    #message {
+        font-size: 1.5rem;
+    }
+
+    #submit {
+        font-size: 2rem;
+    }
+
+    #exitFeedback {
+        font-size: 2rem;
+    }
+
+    textarea {
+        font-size: 1.5rem;
+    }
+
+    /* Quiz Section */
+    #questionText {
+        margin: 10px 0 20px 0;
+        font-size: 2rem;
+    }
+
+    #optionList {
+    grid-template-columns: repeat(2, auto);
+    }
+
+    .choice_que {
+        font-size: 1.5rem;
+        margin: 10px;
+        padding: 10px; 
+    }
+    
+    #next, #end {
+        font-size: 2rem;
+        margin: 20px 0 10px 0;
+    }
+
+    /* results Sections */
+    #congrats h2, #tryAgain h2{
+        font-size: 2rem;
+        margin-top: 20px;
+    }  
+ 
+    #congrats h4, #tryAgain h4{
+    font-size: 1.5rem;
+    } 
+
+    .restart {
+        font-size: 2rem;
+        margin: 20px 0 10px 0;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #container {
+        max-width: 750px;
+    }
+
+    /* scores section */
+    .scores {
+        font-size: 35px;
+        padding: 40px;
+    }
+
+    /* Start Section  */
+    #start, #instructionsBtn, #feedback {
+        margin: 80px; 
+        padding: 40px;
+        font-size: 2.5rem;
+    }
+
+    /* Instructions Section */
+    #instructions h2 {
+        font-size: 2.5rem; 
+    }
+
+    #instructions h4 {
+        font-size: 2rem; 
+    }
+
+    #exitInstructions {
+        font-size: 2.5rem;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+
+    /* Feedback Section */
+
+    #message {
+        font-size: 2rem;
+    }
+
+    #submit {
+        font-size: 2.5rem;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+
+    #exitFeedback {
+        font-size: 2.5rem;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    
+    /* Quiz Section */
+    #questionText {
+        margin: 20px 0 40px 0; 
+        font-size: 2.5rem;
+    }
+
+    .choice_que {
+        font-size: 2rem;
+        margin: 20px; 
+        padding: 20px;  
+    }
+    
+    #next, #end {
+        font-size: 2.5rem;
+        margin: 40px 0 20px 0;
+        padding: 20px;
+    }
+
+    /* results Sections */
+    #congrats h2, #tryAgain h2{
+        font-size: 2.5rem;
+        margin-top: 40px;
+    }  
+ 
+    #congrats h4, #tryAgain h4{
+    font-size: 2rem;
+    } 
+
+    .restart {
+        font-size: 2.5rem;
+        margin: 40px 0 20px 0;
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .logo  {
+        width: 40%;
+    }
+
+    #container {
+        max-width: 950px;
+    }
+
+    /* Feedback Section */
+
+    #message {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 2300px) {
+    .logo  {
+        width: 30%; 
+        margin-bottom: 0;
+        padding: 0 0 20px 0;
+    }
+
+    #container {
+        max-width: 1500px; 
+    }
+
+    /* scores section */
+    .scores {
+        font-size: 45px;
+        padding: 50px;
+    }
+
+    /* Start Section  */
+    #start, #instructionsBtn, #feedback {
+        font-size: 3rem;
+        margin: 80px 400px; 
+    }
+
+    /* Instructions Section */
+    #instructions h2 {
+        font-size: 3rem; 
+    }
+
+    #instructions h4 {
+        font-size: 2.5rem; 
+    }
+
+    #exitInstructions {
+        font-size: 3rem;
+        padding: 40px;
+        margin-bottom: 20px;
+    }
+
+    /* Feedback Section */
+    #message {
+        font-size: 2.5rem;
+        margin: 40px;
+    }
+
+    #submit {
+        font-size: 3rem;
+        padding: 40px;
+        margin: 20px;
+    }
+
+    textarea {
+        font-size: 2rem;
+    }
+
+    #exitFeedback {
+        font-size: 3rem;
+        padding: 40px;
+        margin-bottom: 20px;
+    }
+
+    /* Quiz Section */
+    #questionText {
+        margin: 40px 0 80px 0; 
+        font-size: 3rem;
+    }
+
+    .choice_que {
+        font-size: 2.5rem;
+        margin: 30px; 
+        padding: 40px;  
+    }
+    
+    #next, #end {
+        font-size: 3rem;
+        margin: 40px;
+        padding: 40px;
+    }
+
+    /* results Sections */
+    #congrats h2, #tryAgain h2{
+        font-size: 3rem;
+        margin-top: 80px;
+    }  
+ 
+    #congrats h4, #tryAgain h4{
+        font-size: 2.5rem;
+        padding: 0 40px;
+    } 
+
+    .restart {
+        font-size: 3rem;
+        margin: 80px 0 40px 0;
+        padding: 40px;
+    }
+}
