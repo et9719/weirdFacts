@@ -80,12 +80,16 @@ nextBtn.addEventListener('click', showNextQuestion);
 
 function showNextQuestion() {
     answersDisable = false;
-    //    .style.backgroundColor = 'white';
     if (index !== questions.length - 1) {
         index++;
         loadData();
         nextBtn.classList.add('hide');
     }
+    //set buttons white
+    // choice1.setBackgroundColor(Color.WHITE);
+    // choice2.setBackgroundColor(Color.WHITE);
+    // choice3.setBackgroundColor(Color.WHITE);
+    // choice4.setBackgroundColor(Color.WHITE);
 }
 
 // Take data from javaScript and push to html. 
@@ -223,16 +227,16 @@ let questions = [{
         question: 'what strange food did mcdonalds attepmt to create in 2014?',
         option1: 'Gravy flavoured donuts',
         option2: 'Burger flavoured milkshake',
-        option3: '',
+        option3: 'Deep fried carrots',
         option4: 'Bubble gum flavoured broccoli',
         answer: 'Bubble gum flavoured broccoli'
     },
     {
-        question: '?',
-        option1: '',
-        option2: '',
-        option3: '',
-        option4: '',
-        answer: 2
+        question: 'Where did the origin of ketchup come from?',
+        option1: 'England',
+        option2: 'vietnam',
+        option3: 'America',
+        option4: 'china',
+        answer: 'china'
     }
 ];
