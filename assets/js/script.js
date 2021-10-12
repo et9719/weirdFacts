@@ -85,11 +85,7 @@ function showNextQuestion() {
         loadData();
         nextBtn.classList.add('hide');
     }
-    //set buttons white
-    // choice1.setBackgroundColor(Color.WHITE);
-    // choice2.setBackgroundColor(Color.WHITE);
-    // choice3.setBackgroundColor(Color.WHITE);
-    // choice4.setBackgroundColor(Color.WHITE);
+    resetColor();
 }
 
 // Take data from javaScript and push to html. 
@@ -140,6 +136,14 @@ function incrementScore(usersAns, selectedAnswer) {
     }
 }
 
+// Reset button colors to white 
+function resetColor(selectedAnswer) {
+     choice1.style.backgroundColor = 'white';
+     choice2.style.backgroundColor = 'white';
+     choice3.style.backgroundColor = 'white';
+     choice4.style.backgroundColor = 'white';
+}
+
 // When end button is clicked show congats if user get 5 or more correct and tryAgain if less than 5.
 endBtn.addEventListener('click', results);
 
@@ -153,7 +157,7 @@ function results() {
     }
 }
 
-// restartBtn.addEventListener('click', restart);
+// restartBtn.addEventListener('click', restart); ??????
  // When Restart button is clicked, reset everything. 
 function restart() {
     window.location.reload();
