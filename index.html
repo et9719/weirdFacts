@@ -1,92 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
-    <!-- style sheets -->
-    <link rel="stylesheet" href="assets/css/style-small.css">
-    <link rel="stylesheet" href="assets/css/medium.css">
-    <title>Weird Facts Quiz</title>
-    <style>
-        body {
-          background-image: url('assets/images/temp-background.png');
-         
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-        }
-    </style>
-</head>
-<body>
-    <img class="logo" src="assets/images/weird-logo.png" alt="Weird Facts Quiz Logo">
 
-    <div id="container">
-        <!-- Start Section -->
-        <div id="startSection">
-            <div id="instructionsBtn" class="btn"> Instructions </div>
-            <div id="start" class="btn"> Start </div>
-            <div id="feedback" class="btn"> Give Feedback </div>
-        </div>
-        <!-- Instructions Section -->
-        <div id="instructions" class="hide"> 
-            <h2> Instructions </h2>
-            <h4> 1. 10 questions will be asked. </h4>
-            <h4> 2. You only get one chance to select an answer, so once your answer
-                 is selected you can't change your mind. </h4>
-            <h4> 3. Points will be given based on your correct/incorrect answers. </h4>
-            <button id="exitInstructions" class="btn">Exit</button>
-        </div>
-        <!-- Feedback Section -->    
-        <div id="form" class="hide">
-            <form method="POST" action="https://formdump.codeinstitute.net/">
-                <p id="message">If you have any feed back or think you have a weird fact to teach us, please 
-                leave it for us to read in the box below: </p>
-                <br>
-                <textarea rows = "8" cols = "50" name = "message" placeholder="leave message here!"></textarea>
-                <br>
-                <div id="exitFeedback" class="btn"> Exit </div>
-                <input class="btn" id="submit" type = "submit" value = "submit" /> 
-            </form>
-        </div>
-        <!-- Quiz Section -->
-        <div id="quiz"  class="hide">
-            <h2 id="questionText" ></h2>
-        <!-- Answer Choices -->
-            <div id="optionList">
-                <h4 class="choice_que btn" id="option1"></h4>
-                <h4 class="choice_que btn" id="option2"></h4>
-                <h4 class="choice_que btn" id="option3"></h4>
-                <h4 class="choice_que btn" id="option4"></h4>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+        <!-- style sheets -->
+        <link rel="stylesheet" href="assets/css/style-small.css">
+        <link rel="stylesheet" href="assets/css/medium.css">
+        <title>Weird Facts Quiz</title>
+        <style>
+            body {
+                background-image: url('assets/images/temp-background.png');
+
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
+    </head>
+
+    <body>
+        <img class="logo" src="assets/images/weird-logo.png" alt="Weird Facts Quiz Logo">
+
+        <div id="container">
+            <!-- Start Section -->
+            <div id="startSection">
+                <div id="instructionsBtn" class="btn"> Instructions </div>
+                <div id="start" class="btn"> Start </div>
+                <div id="feedback" class="btn"> Give Feedback </div>
             </div>
-            <button id="next" class="btn hide"> Next </button>
-            <button id="end" class="btn hide"> End </button>
+            <!-- Instructions Section -->
+            <div id="instructions" class="hide">
+                <h2> Instructions </h2>
+                <h4> 1. 10 questions will be asked. </h4>
+                <h4> 2. You only get one chance to select an answer, so once your answer
+                    is selected you can't change your mind. </h4>
+                <h4> 3. Points will be given based on your correct/incorrect answers. </h4>
+                <button id="exitInstructions" class="btn">Exit</button>
+            </div>
+            <!-- Feedback Section -->
+            <div id="form" class="hide">
+                <form method="POST" action="https://formdump.codeinstitute.net/">
+                    <p id="message">If you have any feed back or think you have a weird fact to teach us, please
+                        leave it for us to read in the box below: </p>
+                    <br>
+                    <textarea rows="8" cols="50" name="message" placeholder="leave message here!"></textarea>
+                    <br>
+                    <div id="exitFeedback" class="btn"> Exit </div>
+                    <input class="btn" id="submit" type="submit" value="submit" />
+                </form>
+            </div>
+            <!-- Quiz Section -->
+            <div id="quiz" class="hide">
+                <h2 id="questionText"></h2>
+                <!-- Answer Choices -->
+                <div id="optionList">
+                    <h4 class="choice_que btn" id="option1"></h4>
+                    <h4 class="choice_que btn" id="option2"></h4>
+                    <h4 class="choice_que btn" id="option3"></h4>
+                    <h4 class="choice_que btn" id="option4"></h4>
+                </div>
+                <button id="next" class="btn hide"> Next </button>
+                <button id="end" class="btn hide"> End </button>
+            </div>
+            <!-- Winners Section -->
+            <div id="congrats" class="hide">
+                <h2>How much random knowledge do you have?</h2>
+                <br>
+                <h4>Congrats!</h4>
+                <h4>You know a lot of random stuff.</h4>
+                <button class="restart btn" onclick="restart();"> Restart </button>
+            </div>
+            <!-- losers Section -->
+            <div id="tryAgain" class="hide">
+                <h2>How much random knowledge do you have?</h2>
+                <br>
+                <h4>Apparently not much :/</h4>
+                <h4>Feel free to try again if you think you learnt anything the first time round.</h4>
+                <button class="restart btn" onclick="restart();"> Restart </button>
+            </div>
         </div>
-        <!-- Winners Section -->  
-        <div id="congrats"  class="hide">
-            <h2>How much random knowledge do you have?</h2>
-            <br>
-            <h4>Congrats!</h4>
-            <h4>You know alot of random stuff.</h4>
-            <button class="restart btn" onclick="restart();"> Restart </button>
-       </div>
-       <!-- loosers Section -->  
-       <div id="tryAgain"  class="hide">
-        <h2>How much random knowledge do you have?</h2>
-        <br>
-        <h4>Apparently not much :/</h4>
-        <h4>Feel free to try again if you think you learnt anything the first time round.</h4>
-        <button class="restart btn" onclick="restart();"> Restart </button>
-    </div>  
-    </div>
-    <div id="score-area">
-        <p class="scores">Correct Answers <span id="score">0</span></p>
-        <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
-    </div>
-    <script src="assets/js/script.js"></script>
-</body>
+        <div id="score-area">
+            <p class="scores">Correct Answers <span id="score">0</span></p>
+            <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
+        </div>
+        <script src="assets/js/script.js"></script>
+    </body>
+
 </html>

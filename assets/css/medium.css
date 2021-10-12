@@ -1,4 +1,3 @@
-
 @media screen and (min-width: 750px) {
     #container {
         max-width: 550px;
@@ -12,9 +11,11 @@
     }
 
     /* Start Section  */
-    #start, #instructionsBtn, #feedback {
+    #start,
+    #instructionsBtn,
+    #feedback {
         font-size: 2rem;
-        margin: 60px; 
+        margin: 60px;
     }
 
     /* Instructions Section */
@@ -23,7 +24,7 @@
     }
 
     #instructions h4 {
-        font-size: 1.5rem; 
+        font-size: 1.5rem;
     }
 
     #exitInstructions {
@@ -55,29 +56,32 @@
     }
 
     #optionList {
-    grid-template-columns: repeat(2, auto);
+        grid-template-columns: repeat(2, auto);
     }
 
     .choice_que {
         font-size: 1.5rem;
         margin: 10px;
-        padding: 10px; 
+        padding: 10px;
     }
-    
-    #next, #end {
+
+    #next,
+    #end {
         font-size: 2rem;
         margin: 20px 0 10px 0;
     }
 
     /* results Sections */
-    #congrats h2, #tryAgain h2{
+    #congrats h2,
+    #tryAgain h2 {
         font-size: 2rem;
         margin-top: 20px;
-    }  
- 
-    #congrats h4, #tryAgain h4{
-    font-size: 1.5rem;
-    } 
+    }
+
+    #congrats h4,
+    #tryAgain h4 {
+        font-size: 1.5rem;
+    }
 
     .restart {
         font-size: 2rem;
@@ -97,19 +101,21 @@
     }
 
     /* Start Section  */
-    #start, #instructionsBtn, #feedback {
-        margin: 80px; 
+    #start,
+    #instructionsBtn,
+    #feedback {
+        margin: 80px;
         padding: 40px;
         font-size: 2.5rem;
     }
 
     /* Instructions Section */
     #instructions h2 {
-        font-size: 2.5rem; 
+        font-size: 2.5rem;
     }
 
     #instructions h4 {
-        font-size: 2rem; 
+        font-size: 2rem;
     }
 
     #exitInstructions {
@@ -135,34 +141,37 @@
         padding: 20px;
         margin-bottom: 10px;
     }
-    
+
     /* Quiz Section */
     #questionText {
-        margin: 20px 0 40px 0; 
+        margin: 20px 0 40px 0;
         font-size: 2.5rem;
     }
 
     .choice_que {
         font-size: 2rem;
-        margin: 20px; 
-        padding: 20px;  
+        margin: 20px;
+        padding: 20px;
     }
-    
-    #next, #end {
+
+    #next,
+    #end {
         font-size: 2.5rem;
         margin: 40px 0 20px 0;
         padding: 20px;
     }
 
     /* results Sections */
-    #congrats h2, #tryAgain h2{
+    #congrats h2,
+    #tryAgain h2 {
         font-size: 2.5rem;
         margin-top: 40px;
-    }  
- 
-    #congrats h4, #tryAgain h4{
-    font-size: 2rem;
-    } 
+    }
+
+    #congrats h4,
+    #tryAgain h4 {
+        font-size: 2rem;
+    }
 
     .restart {
         font-size: 2.5rem;
@@ -172,7 +181,7 @@
 }
 
 @media screen and (min-width: 1500px) {
-    .logo  {
+    .logo {
         width: 40%;
     }
 
@@ -188,14 +197,14 @@
 }
 
 @media screen and (min-width: 2300px) {
-    .logo  {
-        width: 30%; 
+    .logo {
+        width: 30%;
         margin-bottom: 0;
         padding: 0 0 20px 0;
     }
 
     #container {
-        max-width: 1500px; 
+        max-width: 1500px;
     }
 
     /* scores section */
@@ -205,18 +214,20 @@
     }
 
     /* Start Section  */
-    #start, #instructionsBtn, #feedback {
+    #start,
+    #instructionsBtn,
+    #feedback {
         font-size: 3rem;
-        margin: 80px 400px; 
+        margin: 80px 400px;
     }
 
     /* Instructions Section */
     #instructions h2 {
-        font-size: 3rem; 
+        font-size: 3rem;
     }
 
     #instructions h4 {
-        font-size: 2.5rem; 
+        font-size: 2.5rem;
     }
 
     #exitInstructions {
@@ -249,32 +260,35 @@
 
     /* Quiz Section */
     #questionText {
-        margin: 40px 0 80px 0; 
+        margin: 40px 0 80px 0;
         font-size: 3rem;
     }
 
     .choice_que {
         font-size: 2.5rem;
-        margin: 30px; 
-        padding: 40px;  
+        margin: 30px;
+        padding: 40px;
     }
-    
-    #next, #end {
+
+    #next,
+    #end {
         font-size: 3rem;
         margin: 40px;
         padding: 40px;
     }
 
     /* results Sections */
-    #congrats h2, #tryAgain h2{
+    #congrats h2,
+    #tryAgain h2 {
         font-size: 3rem;
         margin-top: 80px;
-    }  
- 
-    #congrats h4, #tryAgain h4{
+    }
+
+    #congrats h4,
+    #tryAgain h4 {
         font-size: 2.5rem;
         padding: 0 40px;
-    } 
+    }
 
     .restart {
         font-size: 3rem;

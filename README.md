@@ -67,35 +67,42 @@
 
 HTML was tested using the official [W3C validator](https://validator.w3.org/nu/) 
 
+The HTML results came back with no errors.
+The following warnings were found:
 
-The following errors/warnings were found:
+<img src="assets/images/html-warnings.png" alt="image of warnings">
 
-<img src="" alt="image of warning">
--
-Retested: Warning cleared
-
-<img src="" alt="image of error">
--
-Retested: Error passed
-
-The HTML was then re-tested, and results came back with no errors.
-
-<img src="" alt="image showing errors are cleared">
+- All warnings were showing empty headings. This is because they were left empty to allow different words to be placed inside the headings throughout the quiz using javaScript. 
 
 ### CSS
  
  CSS was tested using the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
  
+No errors were found in the css:
 
-errors found:
+   <img src="assets/images/css.png" alt="CSS test showing no error">  
 
- <img src="" alt="image of error">
+### JavaScript
 
-  Retested: Error Passed
+JavaScript was tested using js hint [js hint validator](https://jshint.com/) 
 
-  The CSS was then re-tested, and results came back with no errors.
+The JavaScript results came back with the following:
 
-   <img src="" alt="CSS test showing no error">  
+<img src="assets/images/javascript-warnings.png" alt="image of errors">
+
+1. A warning for a missing semicolon on line 96
+
+- To resolve this I went to line 96 and placed the semicolon where needed.
+
+2. It found two undefined variables, congrats on line 143 and tryAgain on line 146. 
+
+- For both of these i worte a variable using getElementById to pull them from the html.
+
+3. It found three unused variables, choices on line 20, restartBtn on line 27 and restart on line 153.
+
+- choices was not needed so it was deleted.
+- 
+
 
 ### Manual Testing 
 
@@ -120,14 +127,16 @@ I have tested my site on the following devices:
 
 ### Bugs
 
-1. 
+1. I found that when the user chose an answer, there seemed to be no limit on how many times they can make a choice on the same question before pressing the next button and therefore could add as many correct and incorrect points as they like on each questions.
 
-- fixed? 
+- fixed? YES
 
-- what did i do ?
-
-
-    <img src="" alt="Screenshot of the site used to help solve issue">  
+- what did i do?
+ 
+  To fix this i had to find a way to disable all choices when a user makes their first choice on each question.
+  To do that I created a variable called answerDisable and gave it the value of false to start with. 
+  In the function where i added a selected class to the choice the user selected, I added an if statement that says if answerDisabled is equal to true then return null. The null value removes and values the choice objects had disabling the use of them. right after the if statement in the userAnswer function I wrote answerDisable = true to put that if statement into use. 
+  In the show next question function, when the next button is pressed, I put answerDisabled = false to allow the use of the choice buttons again for the next question. 
 
 2.
 

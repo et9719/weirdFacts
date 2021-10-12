@@ -4,7 +4,7 @@ body {
     height: 100vh;
 }
 
-.logo  {
+.logo {
     width: 65%;
     padding: 20px;
     margin-bottom: 20px;
@@ -15,7 +15,7 @@ body {
 }
 
 #container {
-    background-image: url("../images/paper.jpg");   
+    background-image: url("../images/paper.jpg");
     box-sizing: border-box;
     border-radius: 1%;
     display: flex;
@@ -25,27 +25,29 @@ body {
     max-width: 250px;
     padding: 20px;
     margin: 0 20px;
-    margin-left: auto; 
-    margin-right: auto; 
+    margin-left: auto;
+    margin-right: auto;
     box-shadow: 0 0 10px 2px;
-    position: relative; 
-    top: -5%; 
+    position: relative;
+    top: -5%;
 }
 
 .btn {
     background-color: white;
     border-width: 2px;
-    border-style:outset;
+    border-style: outset;
     border-color: rgb(85, 85, 85);
-} 
+}
 
 .btn:hover {
-    border-style:inset;
+    border-style: inset;
     border-width: 5px;
 }
 
 /* Start Section  */
-#start, #instructionsBtn, #feedback {
+#start,
+#instructionsBtn,
+#feedback {
     font-size: 1rem;
     padding: 20px;
     margin: 20px;
@@ -57,36 +59,36 @@ body {
     color: rgb(7, 204, 7);
     font-weight: bold;
 }
-    
+
 #incorrect {
     color: red;
     font-weight: bold;
 }
-        
+
 .scores {
     display: inline-block;
     padding: 15px;
     font-size: 10px;
     margin: 5px;
     background-color: rgba(204, 197, 197, 0.5);
-    border-radius: 50% ;
+    border-radius: 50%;
 }
 
 /* Instructions Section */
 #instructions h2 {
     font-size: 1rem;
-    border-bottom: 2px solid black; 
-    padding-bottom: 15px; 
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
     font-weight: lighter;
 }
 
 #instructions h4 {
-    font-size: 0.8rem; 
+    font-size: 0.8rem;
     font-weight: lighter;
 }
 
 #exitInstructions {
-    font-family: 'Special Elite', cursive; 
+    font-family: 'Special Elite', cursive;
     font-size: 1rem;
     padding: 10px;
 }
@@ -95,19 +97,19 @@ body {
 
 #message {
     font-size: 0.8rem;
-    margin: 0; 
+    margin: 0;
 }
 
 textarea {
     border: 2px solid black;
-    font-family: 'Special Elite',cursive;
-    padding: 10px; 
+    font-family: 'Special Elite', cursive;
+    padding: 10px;
     width: 90%;
     margin-bottom: 10px;
 }
 
 #submit {
-    font-family: 'Special Elite', cursive; 
+    font-family: 'Special Elite', cursive;
     font-size: 1rem;
     padding: 10px;
     display: inline;
@@ -115,7 +117,7 @@ textarea {
 }
 
 #exitFeedback {
-    font-family: 'Special Elite', cursive; 
+    font-family: 'Special Elite', cursive;
     font-size: 1rem;
     padding: 10px;
     display: inline;
@@ -124,7 +126,7 @@ textarea {
 
 /* Quiz Section */
 #questionText {
-    font-weight:lighter;
+    font-weight: lighter;
     margin: 0;
     font-size: 1rem;
 }
@@ -135,41 +137,44 @@ textarea {
 }
 
 .choice_que {
-    font-weight:lighter;
+    font-weight: lighter;
     font-size: 1rem;
     margin: 5px;
     padding: 5px;
 }
 
-#next, #end {
+#next,
+#end {
     font-size: 1rem;
     padding: 10px;
     width: 30%;
-    font-family: 'Special Elite',cursive;
+    font-family: 'Special Elite', cursive;
 }
 
 /* results Sections */
-#congrats h2, #tryAgain h2{
+#congrats h2,
+#tryAgain h2 {
     font-weight: lighter;
     font-size: 1rem;
     margin: 0;
 }
- 
-#congrats h4, #tryAgain h4{
+
+#congrats h4,
+#tryAgain h4 {
     font-weight: lighter;
     font-size: 0.8rem;
     margin-bottom: 25px;
-} 
+}
 
 .restart {
     font-size: 1rem;
     padding: 10px;
     width: 40%;
-    font-family: 'Special Elite',cursive;
+    font-family: 'Special Elite', cursive;
 }
-    
+
 @media screen and (min-width: 350px) {
-    .logo  {
+    .logo {
         margin-bottom: 40px;
     }
 
@@ -182,6 +187,7 @@ textarea {
 }
 
 @media screen and (min-width: 400px) {
+
     /* start section */
     #start {
         margin: 40px 20px;
@@ -191,24 +197,26 @@ textarea {
     #instructions h2 {
         font-size: 1.2rem;
     }
-    
+
     #instructions h4 {
-        font-size: 1rem; 
+        font-size: 1rem;
     }
-    
+
     /* feedback section */
     #message {
         font-size: 1rem;
     }
 
     /* results Sections */
-    #congrats h2, #tryAgain h2{
+    #congrats h2,
+    #tryAgain h2 {
         font-size: 1.2rem;
     }
- 
-    #congrats h4, #tryAgain h4{
-    font-size: 1rem;
-    } 
+
+    #congrats h4,
+    #tryAgain h4 {
+        font-size: 1rem;
+    }
 
     /* quiz section */
     #questionText {
