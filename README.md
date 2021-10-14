@@ -18,6 +18,13 @@
     - [Results](#results)
     - [Mobile wireframes](#mobile-wireframes)    
 4. [Features](#features)
+    - [Logo](#logo)
+    - [The start area](#the-start-area)
+    - [The score area](#the-score-area)
+    - [Instructions area](#instructions-area)
+    - [Feedback area](#feedback-area)
+    - [Quiz area](#quiz-area)
+    - [Results sections](#results-sections)
 5. [Testing](#testing)
     - [HTML](#html)
     - [CSS](#css)
@@ -69,10 +76,36 @@
 
 <img src="assets/images/start-area.png" alt="image of the start area on website">
 
-### The Score area
+### The score area
  - The score area is shown at the bottom of the page, this is here so that the user can see how many questions they have got correct and how many are incorrect throughout the quiz.
 
 <img src="assets/images/score-area.png" alt="image of the score area on website">
+
+### Instructions area
+ - The instructions area is shown when instructions is clicked on the start page, it contains three simple instructions explaining how the quiz works followed by an exit button that will take you back to the start area.
+
+<img src="assets/images/instructions-area.png" alt="image of the instructions area on website"> 
+
+### Feedback area
+ - This area is a place where users can leave feedback or even other intersting facts. They can do this by entering their text into the form and pressing submit underneith. There is also an exit button that will again take you back to the start area. 
+
+<img src="assets/images/feedback-area.png" alt="image of the Feedback area on website"> 
+
+### Quiz area
+ - The quiz area is the space in which the questions are asked and the user gives their answers. It consists of a questions at the top and 4 answer choices. when the user clicks on a choice their choice will light up either red or green depending on if the answer they chose was correct or not. once a choice is made the score area underneither will be adjusted and the next button will pop up at the bottom under the answer choices. When the next button is pressed it will move onto the next question. 
+
+<img src="assets/images/quiz-area.png" alt="image of the quiz area on website"> 
+
+ - When the user gets to the last question, the next button will be an end button instead as there will be no more questions for the user to answer. When they click on the end button is will take them onto one of two result sections. 
+
+ <img src="assets/images/last-q.png" alt="image of the quiz area with end button on website"> 
+
+### Results sections
+ - When the user gets to the end of the quiz they will see either the congrats area if they get 5 or more questions correct, or they will see the try again area if they got less than 5 correct. These areas both have a little message to the user followed by a restart button that will reset teh while quiz and take them back to the start area. 
+
+ <img src="assets/images/congrats-area.png" alt="image of the congrats area on website"> 
+
+ <img src="assets/images/tryagain-area.png" alt="image of the try again area on website"> 
 
 ## Testing
 
@@ -135,7 +168,7 @@ I have tested my site on the following devices:
 - iphone 6/7/8 Plus
 - iPad
 - ipad pro
-<!-- - Desktop  -->
+- Desktop 
 
 
 ### Bugs
@@ -186,9 +219,9 @@ The steps to deploy are as follows:
 
  ### Media
 
-1. : This was used to create the wireframes used to design the site.
+1. https://uizard.io/ : This was used to create the wireframes used to design the site.
 
-2. 
+2. Procreate : This app was used to make the weird facts logo.
 
 3. 
 
