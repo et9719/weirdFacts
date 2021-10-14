@@ -1,23 +1,25 @@
 # Weird Facts Quiz
 
-<!-- description of quiz -->
+This website is aimed at people that love learn weird and mostly unusual facts for fun! 
+I got the idea from a friend that likes to give a random fact of the day every time we meet, it always makes me laugh... and doubt the fact to the point that I have get on google and check it out for myself.
+My goal is to create a functioning quiz that is responsive and fun for all people that have an interest in learning weird facts. 
 
-[Click here to go to the live website!](ADD LINK) 
+
+[Click here to go to the live website!](https://et9719.github.io/weirdFacts/) 
 
 <img src="" alt="Live website image">
 
 ## Table of contents
 
-1. [Client Expectations](#client-expectations)
-2. [User Expectations](#user-expectations)
-3. [Wireframes](#wireframes)
+1. [User Expectations](#user-expectations)
+2. [Wireframes](#wireframes)
     - [Start](#start)
     - [Instructions](#instructions)
     - [Feedback](#feedback)
     - [Quiz](#quiz)
     - [Results](#results)
     - [Mobile wireframes](#mobile-wireframes)    
-4. [Features](#features)
+3. [Features](#features)
     - [Logo](#logo)
     - [The start area](#the-start-area)
     - [The score area](#the-score-area)
@@ -25,23 +27,22 @@
     - [Feedback area](#feedback-area)
     - [Quiz area](#quiz-area)
     - [Results sections](#results-sections)
-5. [Testing](#testing)
+4. [Testing](#testing)
     - [HTML](#html)
     - [CSS](#css)
     - [Bugs](#bugs)
-6. [Deployment](#deployment)
-7. [Credits](#credits)
+5. [Deployment](#deployment)
+6. [Credits](#credits)
     - [Content](#content)
     - [Media](#media)
 
-
-## Client Expectations
-
-
-
 ## User Expectations
 
-
+ - As a user, I want see a site that is clearly laid out.
+ - As a user, I want clear instructions of how the quiz works.
+ - As a user, I want the site to be interactive.
+ - As a user, I want to be able to naviate through the quiz easily.
+ - As a user, I want the site to be responsive on multiple devices.
 
 ## Wireframes
 
@@ -67,12 +68,12 @@
 ## Features
 
 ### Logo
- - The Weird Facts Quiz logo was made on procreate by myself. I wanted a logo that would go well with the rest of the quiz. I had decided on using a font called 'Special Elite' for my quiz to make it look like it had been written on a typewriter, so I drew my logo with that in mind.
+ - I created the Weird Facts Quiz logo on procreate. I wanted a logo that would go well with the rest of the quiz. I had decided on using a font called 'Special Elite' for my quiz to make it look like it had been written on a typewriter, so I drew my logo with that in mind.
 
 <img src="assets/images/logo-feature.png" alt="image of logo on website">
 
 ### The start area
- - This is the first page you see when the quiz loads. On this page there are three options, the first option being the instructions, second being start which activtes the quiz itself and the last option being Give feedback. Each of these options when clicked on will take you to their corasonding pages. 
+ - This is the first page you see when the quiz loads. On this page there are three options, the first option being the instructions, second being start which activates the quiz itself and the last option being Give feedback. Each of these options when clicked on will take you to their corresponding pages. 
 
 <img src="assets/images/start-area.png" alt="image of the start area on website">
 
@@ -87,12 +88,12 @@
 <img src="assets/images/instructions-area.png" alt="image of the instructions area on website"> 
 
 ### Feedback area
- - This area is a place where users can leave feedback or even other intersting facts. They can do this by entering their text into the form and pressing submit underneith. There is also an exit button that will again take you back to the start area. 
+ - This area is a place where users can leave feedback or even other weird facts. They can do this by entering their text into the form and pressing submit underneath. There is also an exit button that will again take you back to the start area. 
 
 <img src="assets/images/feedback-area.png" alt="image of the Feedback area on website"> 
 
 ### Quiz area
- - The quiz area is the space in which the questions are asked and the user gives their answers. It consists of a questions at the top and 4 answer choices. when the user clicks on a choice their choice will light up either red or green depending on if the answer they chose was correct or not. once a choice is made the score area underneither will be adjusted and the next button will pop up at the bottom under the answer choices. When the next button is pressed it will move onto the next question. 
+ - The quiz area is the space in which the questions are asked, and the user gives their answers. It consists of a question at the top and 4 answer choices. when the user clicks on a choice their choice will light up either red or green depending on if the answer they chose was correct or not. once a choice is made the score area underneath will be adjusted and the next button will pop up at the bottom under the answer choices. When the next button is pressed it will move onto the next question. 
 
 <img src="assets/images/quiz-area.png" alt="image of the quiz area on website"> 
 
@@ -101,7 +102,7 @@
  <img src="assets/images/last-q.png" alt="image of the quiz area with end button on website"> 
 
 ### Results sections
- - When the user gets to the end of the quiz they will see either the congrats area if they get 5 or more questions correct, or they will see the try again area if they got less than 5 correct. These areas both have a little message to the user followed by a restart button that will reset teh while quiz and take them back to the start area. 
+ - When the user gets to the end of the quiz, they will see either the congrats area if they get 5 or more questions correct, or they would see the try again area if they got less than 5 correct. These areas both have a little message to the user followed by a restart button that will reset the whole quiz and take them back to the start area. 
 
  <img src="assets/images/congrats-area.png" alt="image of the congrats area on website"> 
 
@@ -118,13 +119,13 @@ The following warnings were found:
 
 <img src="assets/images/html-warnings.png" alt="image of warnings">
 
-- All warnings were showing empty headings. This is because they were left empty to allow different words to be placed inside the headings throughout the quiz using javaScript. 
+- All warnings were showing empty headings. This is because they were left empty to allow different words to be placed inside the headings throughout the quiz using JavaScript. 
 
 ### CSS
  
  CSS was tested using the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
  
-No errors were found in the css:
+No errors were found in the CSS:
 
    <img src="assets/images/css.png" alt="CSS test showing no error">  
 
@@ -138,11 +139,11 @@ The JavaScript results came back with the following:
 
 1. A warning for a missing semicolon on line 96
 
-- To resolve this I went to line 96 and placed the semicolon where needed.
+- To resolve this, I went to line 96 and placed the semicolon where needed.
 
 2. It found two undefined variables, congrats on line 143 and tryAgain on line 146. 
 
-- For both of these i worte a variable using getElementById to pull them from the html.
+- For both I wrote a variable using getElementById to pull them from the html.
 
 3. It found three unused variables, choices on line 20, restartBtn on line 27 and restart on line 153.
 
@@ -154,8 +155,17 @@ The JavaScript results came back with the following:
 
 Component | Function | Does it work? | Fixed? 
 --------- | --------- | ----------------- | ------ |
-
-
+Start area: Instructions | Takes user to instructions area | Yes | N/A
+Start area: Start | Takes user to quiz area | Yes | N/A
+Start area: Give feedback | Takes user to feedback area | Yes | N/A
+Instructions: Exit | Takes user back to start area | Yes | N/A
+Feedback: Exit | Takes user back to start area | Yes | N/A
+Feedback: Submit | Submits users feedback | Yes | N/A
+Quiz: Answer buttons | change color to red/green depending on if answer is correct or not, implement score, show the next button | Yes | N/A
+Quiz: Next | change color of all answer buttons back to white, show the next question/answers | Yes | N/A
+Quiz: End | shows results section congrats if user scored 5+ or try again if user scored less than 5 | Yes | N/A
+Congrats: Restart | resets score area and takes user back to start area | Yes | N/A
+Try again: Restart | resets score area and takes user back to start area | Yes | N/A
 
 I also carried out manual testing which tested the responsiveness of the website.
 I have tested my site on the following devices:
@@ -173,24 +183,27 @@ I have tested my site on the following devices:
 
 ### Bugs
 
-1. I found that when the user chose an answer, there seemed to be no limit on how many times they can make a choice on the same question before pressing the next button and therefore could add as many correct and incorrect points as they like on each questions.
+1. I found that when the user chose an answer, there seemed to be no limit on how many times they can make a choice on the same question before pressing the next button and therefore could add as many correct and incorrect points as they like on each question.
 
-- fixed? YES
+- fixed? Yes
 
-- what did i do?
+- what did I do?
  
-  To fix this i had to find a way to disable all choices when a user makes their first choice on each question.
+  To fix this I had to find a way to disable all choices when a user makes their first choice on each question.
   To do that I created a variable called answerDisable and gave it the value of false to start with. 
-  In the function where i added a selected class to the choice the user selected, I added an if statement that says if answerDisabled is equal to true then return null. The null value removes and values the choice objects had disabling the use of them. right after the if statement in the userAnswer function I wrote answerDisable = true to put that if statement into use. 
+  In the function where I added a selected class to the choice the user selected, I added an if statement that says if answerDisabled is equal to true then return null. The null value removes and values the choice objects had disabling the use of them. right after the if statement in the userAnswer function I wrote answerDisable = true to put that if statement into use. 
   In the show next question function, when the next button is pressed, I put answerDisabled = false to allow the use of the choice buttons again for the next question. 
 
-2.
+2. I found that when a user scores 10/10 on devices with a screen around 360px, the score area goes to block rather than inline.
 
--fixed? 
+- fixed? Yes
 
-- what did i do ?
+- what did I do ?
+ 
+ I realised this was because by getting 10 rather than 9 or below there are two digits in the number. This meant that both correct and incorrect scores could no longer fit on the same line. 
+ To fix it all I needed to do was lower the font size slightly. 
 
-    <img src="" alt="Screenshot of the site used to help solve issue">  
+<img src="assets/images/score-area-bug.png" alt="Screenshot of the bug">  
 
  ## Deployment
 
