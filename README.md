@@ -59,7 +59,20 @@
 
 ## Features
 
+### Logo
+ - The Weird Facts Quiz logo was made on procreate by myself. I wanted a logo that would go well with the rest of the quiz. I had decided on using a font called 'Special Elite' for my quiz to make it look like it had been written on a typewriter, so I drew my logo with that in mind.
 
+<img src="assets/images/logo-feature.png" alt="image of logo on website">
+
+### The start area
+ - This is the first page you see when the quiz loads. On this page there are three options, the first option being the instructions, second being start which activtes the quiz itself and the last option being Give feedback. Each of these options when clicked on will take you to their corasonding pages. 
+
+<img src="assets/images/start-area.png" alt="image of the start area on website">
+
+### The Score area
+ - The score area is shown at the bottom of the page, this is here so that the user can see how many questions they have got correct and how many are incorrect throughout the quiz.
+
+<img src="assets/images/score-area.png" alt="image of the score area on website">
 
 ## Testing
 
