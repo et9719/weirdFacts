@@ -103,27 +103,27 @@
 @media screen and (min-width: 1500px) {
    
     #container {
-        max-width: 3500px;
+        max-width: 750px;
     }
 
     .logo {
-        margin-bottom: 160px;
+        margin-bottom: 60px;
     }
 
     /* Start Section  */
     #start,
     #instructionsBtn,
     #feedback {
-        margin: 160px 800px;
+        margin: 60px 80px;
         font-size: 5.5rem;
-        padding: 100px;
+        padding: 10px;
     }
 
      /* scores section */
      .scores {
         font-size: 5rem;
-        padding: 100px;
-        margin: 100px 250px;
+        padding: 10px;
+        margin: 10px 25px;
     }
 
     /* Instructions Section */
