@@ -1,8 +1,8 @@
 # Weird Facts Quiz
 
-This website is aimed at people that love learn weird and mostly unusual facts for fun! 
-I got the idea from a friend that likes to give a random fact of the day every time we meet, it always makes me laugh... and doubt the fact to the point that I have get on google and check it out for myself.
-My goal is to create a functioning quiz that is responsive and fun for all people that have an interest in learning weird facts. 
+This website is aimed at people that love to learn weird and mostly unusual facts for fun! 
+I got the idea from a friend that likes to give a random fact of the day every time we meet, it always makes me laugh... and doubt the fact to the point that I have to get on google and check it out for myself.
+My goal is to create a functioning quiz using html, CSS and JavaScript that is responsive and fun for all people that have an interest in learning weird facts. 
 
 
 [Click here to go to the live website!](https://et9719.github.io/weirdFacts/) 
@@ -236,7 +236,7 @@ The steps to deploy are as follows:
 
 2. Procreate : This app was used to make the weird facts logo.
 
-3. 
+3. https://stock.adobe.com/ : This is where I found the image of paper for the container.
 
 
 
