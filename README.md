@@ -147,7 +147,8 @@ The JavaScript results came back with the following:
 
 3. It found three unused variables, choices on line 20, restartBtn on line 27 and restart on line 153.
 
-- choices was not needed so it was deleted.
+- Choices was not needed so it was deleted.
+- As restart is a funtion, and in the html I had onclick="restart(); the restartBtn variable was not needed so this was also deleted.
 - 
 
 
@@ -217,7 +218,7 @@ The steps to deploy are as follows:
 - When it had been created, I then went to settings.
 - Scrolled down to Github pages where it says "Pages settings now has its own dedicated tab! Check it out here!" And I followed the link.
 - When on Github pages I selected the source to be the main branch and pressed save.
-- A message then pops up that says, " Your site is ready to be published at Your site is published at ADD LINK and when clicked on will take you to the site. 
+- A message then pops up that says, " Your site is ready to be published at Your site is published at https://et9719.github.io/weirdFacts/ and when clicked on will take you to the site. 
 
  ## Credits
 

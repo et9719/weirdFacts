@@ -23,15 +23,12 @@ let choice2 = document.getElementById('option2');
 let choice3 = document.getElementById('option3');
 let choice4 = document.getElementById('option4');
 
-let restartBtn = document.getElementsByClassName('restart');
-
 let index = 0;
 
 // Show the instructions when instructions button is clicked.
 instructionsBtn.addEventListener('click', showInstructions);
 
 function showInstructions() {
-    console.log('updated');
     startSection.classList.add('hide');
     instructionsSection.classList.remove('hide');
 }
@@ -157,7 +154,6 @@ function results() {
     }
 }
 
-// restartBtn.addEventListener('click', restart); ??????
  // When Restart button is clicked, reset everything. 
 function restart() {
     window.location.reload();
