@@ -115,13 +115,13 @@
     #instructionsBtn,
     #feedback {
         margin: 60px 80px;
-        font-size: 5.5rem;
+        font-size: 2.5rem;
         padding: 10px;
     }
 
      /* scores section */
      .scores {
-        font-size: 5rem;
+        font-size: 2.5rem;
         padding: 10px;
         margin: 10px 25px;
     }
@@ -132,74 +132,74 @@
     }
    
     #instructions h2 {
-        font-size: 7rem;
+        font-size: 2.5rem;
     }
 
     #instructions h4 {
-        font-size: 5rem;
+        font-size: 2rem;
     }
 
     #exitInstructions {
-        font-size: 5.5rem;
-        padding: 80px 120px;
-        margin-bottom: 100px;
+        font-size: 2.5rem;
+        padding: 40px 60px;
+        margin-bottom: 10px;
     }
 
     /* Feedback Section */
     #message {
-        font-size: 5.5rem;
-        padding: 100px;
+        font-size: 2.5rem;
+        padding: 10px;
     }
 
     #submit {
-        font-size: 5.5rem;
-        padding: 50px 100px;
-        margin-bottom: 50px;
+        font-size: 2.5rem;
+        padding: 25px 50px;
+        margin-bottom: 25px;
     }
 
     #exitFeedback {
-        font-size: 5.5rem;
-        padding: 50px 100px;
-        margin: 50px;
+        font-size: 2.5rem;
+        padding: 25px 50px;
+        margin: 25px;
     }
 
     textarea {
-        font-size: 5rem;
-        margin-bottom: 100px;
+        font-size: 2rem;
+        margin-bottom: 30px;
     }
 
     /* Quiz Section */
     #questionText {
-        margin: 100px 0;
-        font-size: 7rem;
+        margin: 50px 0;
+        font-size: 2.5rem;
     }
 
     .choice_que {
-        font-size: 5rem;
-        margin: 80px;
-        padding: 80px;
+        font-size: 2rem;
+        margin: 40px;
+        padding: 40px;
     }
 
     #next,
     #end {
-        font-size: 5.5rem;
-        margin: 100px 0;
-        padding: 80px;
+        font-size: 2.5rem;
+        margin: 50px 0;
+        padding: 40px;
     }
 
     /* results Sections */
     #congrats h2,
     #tryAgain h2 {
-        font-size: 5.5rem;
+        font-size: 2.5rem;
     }
 
     #congrats h4,
     #tryAgain h4 {
-        font-size: 5rem;
+        font-size: 2rem;
     }
 
     .restart {
-        font-size: 5.5rem;
+        font-size: 2.5rem;
     }
 }
 
