@@ -20,12 +20,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     border-radius: 1%;
-     /* box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    flex-direction: column;
-    flex-wrap: wrap;
-    */
 }
 
 .btn {
@@ -47,7 +41,7 @@ body {
     font-size: 1rem;
     padding: 5%;
     text-align: center;
-    margin: 5% 20%;
+    margin: 15% 20%;
 } 
 
 /* score area */
@@ -111,7 +105,6 @@ textarea {
 /* Quiz Section */
 #questionText {
     font-weight: lighter;
-    /* margin: 0; */
     font-size: 1.1rem;
 }
 
@@ -155,4 +148,90 @@ textarea {
     width: 40%;
     font-family: 'Special Elite', cursive;
     margin: 4%;
+}
+
+@media screen and (min-width: 550px) {
+    .logo {
+        width: 50%;
+    }
+    
+    #container {
+        padding: 5%;
+        max-width: 60%;
+    }
+    
+    /* Start Section  */
+    #start,
+    #instructionsBtn,
+    #feedback {
+        font-size: 2rem;
+        padding: 5%;
+        margin: 15% 15%; 
+    } 
+    
+    /* score area */
+    .scores {
+        font-size: 1.5rem;
+    } 
+    
+    /* Instructions Section */
+    #instructions h2 {
+        font-size: 2rem;
+    }
+    
+    #instructions h4 {
+        font-size: 1.5rem;
+    }
+    
+    #exitInstructions {
+        font-size: 1.5rem;
+    } 
+    
+    /* Feedback Section */
+    
+    #message {
+        font-size: 2rem;
+    }
+    
+    textarea {
+        font-size: 1.5rem;
+    } 
+    
+    #submit, #exitFeedback {
+        font-size: 1.5rem;
+    }
+    
+    /* Quiz Section */
+    #questionText {
+        font-size: 2rem;
+    }
+    
+    #optionList {
+        grid-template-columns: repeat(2, auto);
+    }
+    
+    .choice_que {
+        font-size: 1.5rem;
+    }
+    
+    #next,
+    #end {
+        font-size: 1.5rem;
+        margin-top: 3%;
+    } 
+    
+    /* results Sections */
+    #congrats h2,
+    #tryAgain h2 {
+        font-size: 2rem;
+    }
+    
+    #congrats h4,
+    #tryAgain h4 {
+        font-size: 1.5rem;
+    }
+    
+    .restart {
+        font-size: 1.5rem;
+    }   
 }
