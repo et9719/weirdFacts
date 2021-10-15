@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: 'Special Elite', cursive;
     text-align: center;
     height: 100vh;
@@ -42,20 +42,20 @@ body {
 .btn:hover {
     border-style: inset;
     border-width: 5px;
-}
+} */
 
 /* Start Section  */
-#start,
+/* #start,
 #instructionsBtn,
 #feedback {
     font-size: 1rem;
     padding: 20px;
     margin: 20px;
     text-align: center;
-}
+} */
 
 /* score area */
-#score {
+/* #score {
     color: rgb(7, 204, 7);
     font-weight: bold;
 }
@@ -72,10 +72,10 @@ body {
     margin: 5px;
     background-color: rgba(204, 197, 197, 0.5);
     border-radius: 50%;
-}
+} */
 
 /* Instructions Section */
-#instructions h2 {
+/* #instructions h2 {
     font-size: 1rem;
     border-bottom: 2px solid black;
     padding-bottom: 15px;
@@ -91,11 +91,11 @@ body {
     font-family: 'Special Elite', cursive;
     font-size: 1rem;
     padding: 10px;
-}
+} */
 
 /* Feedback Section */
 
-#message {
+/* #message {
     font-size: 0.8rem;
     margin: 0;
 }
@@ -122,10 +122,10 @@ textarea {
     padding: 10px;
     display: inline;
     margin: 0 10px;
-}
+} */
 
 /* Quiz Section */
-#questionText {
+/* #questionText {
     font-weight: lighter;
     margin: 0;
     font-size: 1rem;
@@ -149,10 +149,10 @@ textarea {
     padding: 10px;
     width: 30%;
     font-family: 'Special Elite', cursive;
-}
+} */
 
 /* results Sections */
-#congrats h2,
+/* #congrats h2,
 #tryAgain h2 {
     font-weight: lighter;
     font-size: 1rem;
@@ -176,39 +176,39 @@ textarea {
 @media screen and (min-width: 350px) {
     .logo {
         margin-bottom: 40px;
-    }
+    } */
 
     /* scores section */
-    .scores {
+    /* .scores {
         margin-top: 30px;
         font-size: 12px;
         padding: 20px 15px;
     }
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 400px) { */
 
     /* start section */
-    #start {
+    /* #start {
         margin: 40px 20px;
-    }
+    } */
 
     /* instructions section */
-    #instructions h2 {
+    /* #instructions h2 {
         font-size: 1.2rem;
     }
 
     #instructions h4 {
         font-size: 1rem;
-    }
+    } */
 
     /* feedback section */
-    #message {
+    /* #message {
         font-size: 1rem;
-    }
+    } */
 
     /* results Sections */
-    #congrats h2,
+    /* #congrats h2,
     #tryAgain h2 {
         font-size: 1.2rem;
     }
@@ -219,7 +219,7 @@ textarea {
     }
 
     /* quiz section */
-    #questionText {
+    /* #questionText {
         font-size: 1.2rem;
     }
-}
+} */ 

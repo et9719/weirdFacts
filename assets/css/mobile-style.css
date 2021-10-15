@@ -1,0 +1,158 @@
+body {
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    height: 100vh;
+}
+
+.logo {
+    width: 70%;
+}
+
+.hide {
+    display: none;
+}
+
+#container {
+    box-shadow: 0 0 10px 2px;
+    background-image: url("../images/paper.jpg");
+    padding: 5%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1%;
+     /* box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    flex-wrap: wrap;
+    */
+}
+
+.btn {
+    background-color: white;
+    border-width: 2px;
+    border-style: outset; 
+    border-color: rgb(85, 85, 85);
+}
+
+.btn:hover {
+    border-width: 5px;
+    border-style: inset; 
+}
+
+/* Start Section  */
+#start,
+#instructionsBtn,
+#feedback {
+    font-size: 1rem;
+    padding: 5%;
+    text-align: center;
+    margin: 5% 20%;
+} 
+
+/* score area */
+#score {
+    color: rgb(7, 204, 7);
+}
+
+#incorrect {
+    color: red;
+}
+
+.scores {
+    font-size: 0.7rem;
+    background-color: rgba(204, 197, 197, 0.5);
+    padding: 5%;
+    border-radius:50%; 
+    display: inline-block;
+} 
+
+/* Instructions Section */
+#instructions h2 {
+    font-size: 1rem;
+    border-bottom: 2px solid black;
+    padding-bottom: 5%;
+    font-weight: lighter;
+}
+
+#instructions h4 {
+    font-size: 0.8rem;
+    font-weight: lighter;
+}
+
+#exitInstructions {
+    font-family: 'Special Elite', cursive;
+    font-size: 1rem;
+    padding: 3%;
+} 
+
+/* Feedback Section */
+
+#message {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+textarea {
+    border: 2px solid black;
+    font-family: 'Special Elite', cursive;
+    padding: 5%;
+    width: 90%;
+}
+
+#submit, #exitFeedback {
+    font-family: 'Special Elite', cursive;
+    font-size: 0.9rem;
+    padding: 5%;
+    display: inline;
+    margin: 0 5%;
+}
+
+/* Quiz Section */
+#questionText {
+    font-weight: lighter;
+    /* margin: 0; */
+    font-size: 1.1rem;
+}
+
+#optionList {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+}
+
+.choice_que {
+    font-weight: lighter;
+    font-size: 0.8rem;
+    margin: 2%; 
+    padding: 3%;
+}
+
+#next,
+#end {
+    font-size: 1rem;
+    padding: 3%;
+    width: 30%;
+    font-family: 'Special Elite', cursive;
+} 
+
+/* results Sections */
+#congrats h2,
+#tryAgain h2 {
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+#congrats h4,
+#tryAgain h4 {
+    font-weight: lighter;
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.restart {
+    font-size: 1rem;
+    padding: 3%;
+    width: 40%;
+    font-family: 'Special Elite', cursive;
+    margin: 4%;
+}

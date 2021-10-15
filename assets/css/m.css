@@ -1,25 +1,25 @@
-@media screen and (min-width: 750px) {
+ /* @media screen and (min-width: 750px) {
     #container {
         max-width: 550px;
-    }
+    } */
 
     /* scores section */
-    .scores {
+    /* .scores {
         font-size: 20px;
         padding: 30px;
         margin: 30px;
-    }
+    } */
 
     /* Start Section  */
-    #start,
+    /* #start,
     #instructionsBtn,
     #feedback {
         font-size: 2rem;
         margin: 60px;
-    }
+    } */
 
     /* Instructions Section */
-    #instructions h2 {
+    /* #instructions h2 {
         font-size: 2rem;
     }
 
@@ -29,11 +29,11 @@
 
     #exitInstructions {
         font-size: 2rem;
-    }
+    } */
 
     /* Feedback Section */
 
-    #message {
+    /* #message {
         font-size: 1.5rem;
     }
 
@@ -47,10 +47,10 @@
 
     textarea {
         font-size: 1.5rem;
-    }
+    } */
 
     /* Quiz Section */
-    #questionText {
+    /* #questionText {
         margin: 10px 0 20px 0;
         font-size: 2rem;
     }
@@ -69,10 +69,10 @@
     #end {
         font-size: 2rem;
         margin: 20px 0 10px 0;
-    }
+    } */
 
     /* results Sections */
-    #congrats h2,
+    /* #congrats h2,
     #tryAgain h2 {
         font-size: 2rem;
         margin-top: 20px;
@@ -87,30 +87,30 @@
         font-size: 2rem;
         margin: 20px 0 10px 0;
     }
-}
+} */
 
-@media screen and (min-width: 1000px) {
+/* @media screen and (min-width: 1000px) {
     #container {
         max-width: 750px;
-    }
+    } */
 
     /* scores section */
-    .scores {
+    /* .scores {
         font-size: 35px;
         padding: 40px;
-    }
+    } */
 
     /* Start Section  */
-    #start,
+    /* #start,
     #instructionsBtn,
     #feedback {
         margin: 80px;
         padding: 40px;
         font-size: 2.5rem;
-    }
+    } */
 
     /* Instructions Section */
-    #instructions h2 {
+    /* #instructions h2 {
         font-size: 2.5rem;
     }
 
@@ -122,11 +122,11 @@
         font-size: 2.5rem;
         padding: 20px;
         margin-bottom: 10px;
-    }
+    } */
 
     /* Feedback Section */
 
-    #message {
+    /* #message {
         font-size: 2rem;
     }
 
@@ -140,10 +140,10 @@
         font-size: 2.5rem;
         padding: 20px;
         margin-bottom: 10px;
-    }
+    } */
 
     /* Quiz Section */
-    #questionText {
+    /* #questionText {
         margin: 20px 0 40px 0;
         font-size: 2.5rem;
     }
@@ -159,10 +159,10 @@
         font-size: 2.5rem;
         margin: 40px 0 20px 0;
         padding: 20px;
-    }
+    } */
 
     /* results Sections */
-    #congrats h2,
+    /* #congrats h2,
     #tryAgain h2 {
         font-size: 2.5rem;
         margin-top: 40px;
@@ -179,4 +179,4 @@
         padding: 20px;
     }
 }
-
+  */
