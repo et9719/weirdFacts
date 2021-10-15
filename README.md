@@ -7,7 +7,7 @@ My goal is to create a functioning quiz using html, CSS and JavaScript that is r
 
 [Click here to go to the live website!](https://et9719.github.io/weirdFacts/) 
 
-<img src="" alt="Live website image">
+<img src="assets/images/responsive.png" alt="Live website image">
 
 ## Table of contents
 
@@ -41,7 +41,7 @@ My goal is to create a functioning quiz using html, CSS and JavaScript that is r
  - As a user, I want see a site that is clearly laid out.
  - As a user, I want clear instructions of how the quiz works.
  - As a user, I want the site to be interactive.
- - As a user, I want to be able to naviate through the quiz easily.
+ - As a user, I want to be able to navigate through the quiz easily.
  - As a user, I want the site to be responsive on multiple devices.
 
 ## Wireframes
@@ -148,8 +148,9 @@ The JavaScript results came back with the following:
 3. It found three unused variables, choices on line 20, restartBtn on line 27 and restart on line 153.
 
 - Choices was not needed so it was deleted.
-- As restart is a funtion, and in the html I had onclick="restart(); the restartBtn variable was not needed so this was also deleted.
-- 
+- As restart is a function, and in the html I had onclick="restart(); the restartBtn variable was not needed so this was also deleted.
+
+The JavaScript was then retested, it came back with nothing but the one unused variable 'restart', this is because it didn't pick up that it was used as an onclick function within the html.
 
 
 ### Manual Testing 
@@ -226,9 +227,12 @@ The steps to deploy are as follows:
 
 1. https://gitpod.io/workspaces and https://github.com/ : were used to create the site
 
-2.
+2. I watch multiple videos on YouTube to help me get an idea of how to make the quiz, here are some of the videos I got inspiration from: 
+[Build A Quiz App With JavaScript, web dev simplified](https://www.youtube.com/watch?v=riDzcEQbX6k) 
+[How to Make a Quiz App using HTML CSS Javascript - Vanilla Javascript Project for Beginners Tutorial, Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
+[How To Make Quiz App With Timer Using HTML CSS & JavaScript, Code Now](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
 
-3. 
+3. Id also like to thank my mentor Marcel and also other students like Matt Bodden for their support and encouragement throughout this project.
 
 
  ### Media

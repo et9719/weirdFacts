@@ -25,13 +25,13 @@ body {
 .btn {
     background-color: white;
     border-width: 2px;
-    border-style: outset; 
+    border-style: outset;
     border-color: rgb(85, 85, 85);
 }
 
 .btn:hover {
     border-width: 5px;
-    border-style: inset; 
+    border-style: inset;
 }
 
 /* Start Section  */
@@ -42,7 +42,7 @@ body {
     padding: 5%;
     text-align: center;
     margin: 15% 20%;
-} 
+}
 
 /* score area */
 #score {
@@ -57,9 +57,9 @@ body {
     font-size: 0.7rem;
     background-color: rgba(204, 197, 197, 0.5);
     padding: 5%;
-    border-radius:50%; 
+    border-radius: 50%;
     display: inline-block;
-} 
+}
 
 /* Instructions Section */
 #instructions h2 {
@@ -78,7 +78,7 @@ body {
     font-family: 'Special Elite', cursive;
     font-size: 1rem;
     padding: 3%;
-} 
+}
 
 /* Feedback Section */
 
@@ -94,7 +94,8 @@ textarea {
     width: 90%;
 }
 
-#submit, #exitFeedback {
+#submit,
+#exitFeedback {
     font-family: 'Special Elite', cursive;
     font-size: 0.9rem;
     padding: 5%;
@@ -116,7 +117,7 @@ textarea {
 .choice_que {
     font-weight: lighter;
     font-size: 0.8rem;
-    margin: 2%; 
+    margin: 2%;
     padding: 3%;
 }
 
@@ -126,7 +127,7 @@ textarea {
     padding: 3%;
     width: 30%;
     font-family: 'Special Elite', cursive;
-} 
+}
 
 /* results Sections */
 #congrats h2,
@@ -154,84 +155,85 @@ textarea {
     .logo {
         width: 50%;
     }
-    
+
     #container {
         padding: 5%;
         max-width: 60%;
     }
-    
+
     /* Start Section  */
     #start,
     #instructionsBtn,
     #feedback {
         font-size: 2rem;
         padding: 5%;
-        margin: 15% 15%; 
-    } 
-    
+        margin: 15% 15%;
+    }
+
     /* score area */
     .scores {
         font-size: 1.5rem;
-    } 
-    
+    }
+
     /* Instructions Section */
     #instructions h2 {
         font-size: 2rem;
     }
-    
+
     #instructions h4 {
         font-size: 1.5rem;
     }
-    
+
     #exitInstructions {
         font-size: 1.5rem;
-    } 
-    
+    }
+
     /* Feedback Section */
-    
+
     #message {
         font-size: 2rem;
     }
-    
+
     textarea {
         font-size: 1.5rem;
-    } 
-    
-    #submit, #exitFeedback {
+    }
+
+    #submit,
+    #exitFeedback {
         font-size: 1.5rem;
     }
-    
+
     /* Quiz Section */
     #questionText {
         font-size: 2rem;
     }
-    
+
     #optionList {
         grid-template-columns: repeat(2, auto);
     }
-    
+
     .choice_que {
         font-size: 1.5rem;
     }
-    
+
     #next,
     #end {
         font-size: 1.5rem;
         margin-top: 3%;
-    } 
-    
+    }
+
     /* results Sections */
     #congrats h2,
     #tryAgain h2 {
         font-size: 2rem;
     }
-    
+
     #congrats h4,
     #tryAgain h4 {
         font-size: 1.5rem;
     }
-    
+
     .restart {
         font-size: 1.5rem;
-    }   
+    }
 }

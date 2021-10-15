@@ -65,7 +65,7 @@ function showQuestion() {
 
 // When user clicks on an answer, show next button
 function showNextBtn() {
-    if (index !== questions.length - 1) {
+    if(index !== questions.length - 1) {
         nextBtn.classList.remove('hide');
     } else {
         endBtn.classList.remove('hide');
@@ -77,7 +77,7 @@ nextBtn.addEventListener('click', showNextQuestion);
 
 function showNextQuestion() {
     answersDisable = false;
-    if (index !== questions.length - 1) {
+    if(index !== questions.length - 1) {
         index++;
         loadData();
         nextBtn.classList.add('hide');
@@ -101,7 +101,7 @@ choice3.addEventListener('click', usersAnswer);
 choice4.addEventListener('click', usersAnswer);
 
 function usersAnswer() {
-    if (answersDisable == true) {
+    if(answersDisable == true) {
         return null;
     }
     answersDisable = true;
@@ -119,7 +119,7 @@ function checkAnswer(selectedAnswer) {
 
 // Increment the incorrect and correct answers. 
 function incrementScore(usersAns, selectedAnswer) {
-    if (usersAns === questions[index].answer) {
+    if(usersAns === questions[index].answer) {
         //  if answer is correct and 1 point to correct answers
         let oldScore = parseInt(document.getElementById("score").innerText);
         document.getElementById("score").innerText = oldScore + 1;
@@ -135,17 +135,17 @@ function incrementScore(usersAns, selectedAnswer) {
 
 // Reset button colors to white 
 function resetColor(selectedAnswer) {
-     choice1.style.backgroundColor = 'white';
-     choice2.style.backgroundColor = 'white';
-     choice3.style.backgroundColor = 'white';
-     choice4.style.backgroundColor = 'white';
+    choice1.style.backgroundColor = 'white';
+    choice2.style.backgroundColor = 'white';
+    choice3.style.backgroundColor = 'white';
+    choice4.style.backgroundColor = 'white';
 }
 
 // When end button is clicked show congats if user get 5 or more correct and tryAgain if less than 5.
 endBtn.addEventListener('click', results);
 
 function results() {
-    if (document.getElementById("score").innerText >= 5) {
+    if(document.getElementById("score").innerText >= 5) {
         quizSection.classList.add('hide');
         congrats.classList.remove('hide');
     } else {
@@ -154,7 +154,7 @@ function results() {
     }
 }
 
- // When Restart button is clicked, reset everything. 
+// When Restart button is clicked, reset everything. 
 function restart() {
     window.location.reload();
 }
@@ -200,7 +200,7 @@ let questions = [{
         answer: 'Platypus'
     },
     {
-        question: 'If you got in your car, drove at 60mph in a strait line, how long would it take you to get to space?',
+        question: 'If you got in your car, drove at 60mph in a straight line, how long would it take you to get to space?',
         option1: '1 Hour',
         option2: '6 Hours',
         option3: '3 Days',
@@ -224,7 +224,7 @@ let questions = [{
         answer: 'J'
     },
     {
-        question: 'what strange food did mcdonalds attepmt to create in 2014?',
+        question: 'what strange food did McDonalds attempt to create in 2014?',
         option1: 'Gravy flavoured donuts',
         option2: 'Burger flavoured milkshake',
         option3: 'Deep fried carrots',
