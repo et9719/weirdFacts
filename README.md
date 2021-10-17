@@ -27,6 +27,7 @@ My goal is to create a functioning quiz using html, CSS and JavaScript that is r
     - [Feedback area](#feedback-area)
     - [Quiz area](#quiz-area)
     - [Results sections](#results-sections)
+4. [Changes from the original plan](#changes-from-the-original-plan)
 4. [Testing](#testing)
     - [HTML](#html)
     - [CSS](#css)
@@ -107,6 +108,12 @@ My goal is to create a functioning quiz using html, CSS and JavaScript that is r
  <img src="assets/images/congrats-area.png" alt="image of the congrats area on website"> 
 
  <img src="assets/images/tryagain-area.png" alt="image of the try again area on website"> 
+
+## Changes from the original plan 
+
+- Originally, I had planned it out so that when the user clicks on an answer it will turn red or green depending on if they get it correct or not. I wanted to be able to teach the user the correct answer if they didn't get it right, so I added a function to allow the correct answer to also show if the user doesn't guess right.
+
+ <img src="assets/images/change.png" alt="image of the quiz area when wrong answer is clicked"> 
 
 ## Testing
 
