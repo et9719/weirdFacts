@@ -121,8 +121,8 @@ function checkAnswer(selectedAnswer) {
 function correctAns() {
     let choices = document.getElementsByClassName('choice_que');
 
-    for (let choice of choices) {
-        if (choice.innerText === questions[index].answer) {
+    for(let choice of choices) {
+        if(choice.innerText === questions[index].answer) {
             choice.style.backgroundColor = 'green';
         }
     }
