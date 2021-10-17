@@ -117,6 +117,17 @@ function checkAnswer(selectedAnswer) {
     incrementScore(usersAns, selectedAnswer);
 }
 
+// find correct answer our of the 4 choices
+function correctAns() {
+    let choices = document.getElementsByClassName('choice_que');
+
+    for (let choice of choices) {
+        if (choice.innerText === questions[index].answer) {
+            choice.style.backgroundColor = 'green';
+        }
+    }
+}
+
 // Increment the incorrect and correct answers. 
 function incrementScore(usersAns, selectedAnswer) {
     if(usersAns === questions[index].answer) {
@@ -124,12 +135,12 @@ function incrementScore(usersAns, selectedAnswer) {
         let oldScore = parseInt(document.getElementById("score").innerText);
         document.getElementById("score").innerText = oldScore + 1;
         selectedAnswer.style.backgroundColor = 'green';
-        console.log(selectedAnswer.id);
     } else {
         // if answer is incorrect and 1 point to incorrect answers
         let oldScore = parseInt(document.getElementById("incorrect").innerText);
         document.getElementById("incorrect").innerText = oldScore + 1;
         selectedAnswer.style.backgroundColor = 'red';
+        correctAns();
     }
 }
 
