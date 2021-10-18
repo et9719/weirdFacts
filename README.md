@@ -28,12 +28,13 @@ My goal is to create a functioning quiz using html, CSS and JavaScript that is r
     - [Quiz area](#quiz-area)
     - [Results sections](#results-sections)
 4. [Changes from the original plan](#changes-from-the-original-plan)
-4. [Testing](#testing)
+5. [Testing](#testing)
     - [HTML](#html)
     - [CSS](#css)
     - [Bugs](#bugs)
-5. [Deployment](#deployment)
-6. [Credits](#credits)
+6. [Deployment](#deployment)
+7. [Finished product](#finished-product)
+8. [Credits](#credits)
     - [Content](#content)
     - [Media](#media)
 
@@ -228,9 +229,39 @@ The steps to deploy are as follows:
 - When on Github pages I selected the source to be the main branch and pressed save.
 - A message then pops up that says, " Your site is ready to be published at Your site is published at https://et9719.github.io/weirdFacts/ and when clicked on will take you to the site. 
 
- ## Credits
+## Finished product
 
- ### Content
+Home page:
+<img src="assets/images/start-page.png" alt="Screenshot of the Home page">  
+
+Instructions: 
+<img src="assets/images/instructions-page.png" alt="Screenshot of the instructions">  
+
+Feedback page:
+<img src="assets/images/feedback-page.png" alt="Screenshot of the feedback page">  
+
+Questions page:
+<img src="assets/images/quiz-page.png" alt="Screenshot of the questions page">  
+
+Questions page when user selects correct answer:
+<img src="assets/images/quiz-right.png" alt="Screenshot of the questions page when user selects correct answer"> 
+
+Questions page when user selects incorrect answer:
+<img src="assets/images/quiz-wrong.png" alt="Screenshot of the questions page when user selects incorrect answer">  
+ 
+Questions page on the last question:
+<img src="assets/images/end-of-quiz.png" alt="Screenshot of the questions page on the last question">  
+
+Results when user gets 5 or more correct:
+<img src="assets/images/result-win.png" alt="Screenshot of the results page when user wins">
+
+
+Results when user gets less than 5 correct:
+<img src="assets/images/result-lose.png" alt="Screenshot of the results page when user loses">
+
+## Credits
+
+### Content
 
 1. https://gitpod.io/workspaces and https://github.com/ : were used to create the site
 
